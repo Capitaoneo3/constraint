@@ -18,19 +18,23 @@
 
 
 
+
+
+
+
         ]]>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="284dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
             android:text="@string/aprenda_sobre_di_o_de_imagens"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <TextView
             android:id="@+id/textView2"
@@ -41,34 +45,32 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent" />
 
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="36dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="32dp"
             android:text="@string/anterior"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button2"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="37dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"
             android:text="@string/pr_ximo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book_it_has_survived_not_only_five_centuries_but_also_the_leap_into_electronic_typesetting_remaining_essentially_unchanged_it_was_popularised_in_the_1960s_with_the_release_of_letraset_sheets_containing_lorem_ipsum_passages_and_more_recently_with_desktop_publishing_software_like_aldus_pagemaker_including_versions_of_lorem_ipsum"
             android:textAlignment="center"
@@ -76,44 +78,28 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="12dp"
-            android:contentDescription="@string/fotoprincipal"
-            android:scaleType="centerCrop"
-            app:layout_constraintBottom_toTopOf="@+id/textView"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@drawable/celular" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" />
-
         <TextView
             android:id="@+id/nome_do_autor"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:text="@string/titulo_autor"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button" />
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/celular"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="-27dp" />
+            android:contentDescription="@string/imagemcapadeconteudo"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/celular" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
