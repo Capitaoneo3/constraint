@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="20dp"
-            android:text="@string/aprenda_sobre_di_o_de_imagens"
+            android:text="@string/titulo_do_artigo"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"

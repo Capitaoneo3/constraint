@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">constraint.layout</string>
     <string name="titulo_autor">JomJom</string>
-    <string name="aprenda_sobre_di_o_de_imagens">Aprenda sobre dição de imagens</string>
+    <string name="titulo_do_artigo">Aprenda sobre edição de imagens</string>
     <string name="_10_05_20">10/05/20</string>
     <string name="anterior">Anterior</string>
     <string name="pr_ximo">Próximo</string>
